@@ -60,7 +60,7 @@ label{
 
 <body>
 <div class="login-container">
-<form>
+<form method="POST" action="auth.php">
 <h2>Please login:</h2>
     <label for="username" id="Lblusername" name="Lblusername">Username: </label>
     <input type="text" id="username" name="username" class="inputText"/>
