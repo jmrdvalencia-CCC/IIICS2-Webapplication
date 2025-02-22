@@ -42,7 +42,7 @@ label{
     color:white;
     padding: 10px 15px;
     border:none;
-    border: radius 3px;
+    border-radius: 3px;
     cursor:pointer;
 }
 
