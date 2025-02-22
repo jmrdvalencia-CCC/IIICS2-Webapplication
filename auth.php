@@ -29,15 +29,12 @@ if($_SERVER["REQUEST_METHOD"]=="POST")
             }
             else{
                 echo "invalid password";
-                header("location:index.php");
+                header("location:index.php?error=1");
             }
         }
 
     }
     echo "Invalid Usernmer";
-
-
-
 }
 
 

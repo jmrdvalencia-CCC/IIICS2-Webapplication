@@ -62,6 +62,13 @@ label{
 <div class="login-container">
 <form method="POST" action="auth.php">
 <h2>Please login:</h2>
+<?php
+if(isset($_GET["error"]) && $_GET["error"]==1)
+{
+    echo "<h3>Password did not match!</h3>";
+}
+
+?>
     <label for="username" id="Lblusername" name="Lblusername">Username: </label>
     <input type="text" id="username" name="username" class="inputText"/>
 
